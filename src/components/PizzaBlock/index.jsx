@@ -82,8 +82,6 @@ PizzaBlock.propTypes = {
     price: PropTypes.number,
     types: PropTypes.arrayOf(PropTypes.number),
     sizes: PropTypes.arrayOf(PropTypes.number),
-    onClickAddPizza: PropTypes.func,
-    addedCount: PropTypes.number,
 };
 
 PizzaBlock.defaultProps = {
@@ -92,6 +90,5 @@ PizzaBlock.defaultProps = {
     types: [],
     sizes: [],
 };
-
 
 export default PizzaBlock;
